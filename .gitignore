@@ -1,6 +1,39 @@
 # Node modules
 node_modules/
 
+# Dependency locks
+package-lock.json
+yarn.lock
+
+# Expo / React Native
+.expo/
+.expo-shared/
+
+# Android
+android/build/
+android/.gradle/
+
+# iOS
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+*.xcworkspace
+*.xcodeproj
+
+# macOS
+.DS_Store
+
+# Build outputs / Bundles
+*.app/
+*.framework/
+todolistsimple.app/
+
+# Misc
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*# Node modules
+node_modules/
+
 # Expo / React Native
 .expo/
 .expo-shared/
