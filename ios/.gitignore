@@ -1,30 +1,30 @@
-# OSX
-#
+# Node modules
+node_modules/
+
+# Expo / React Native
+.expo/
+.expo-shared/
+
+# iOS build & Pods
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+ios/*.xcworkspace
+ios/*.xcodeproj/project.xcworkspace/xcuserdata/
+ios/*.xcodeproj/xcuserdata/
+ios/*.xcodeproj/xcshareddata/
+*.app/
+*.framework/
+
+# Android build
+android/build/
+android/.gradle/
+
+# Debug / logs
+yarn-debug.*
+yarn-error.*
+yarn-error.log*
+*.log
+
+# macOS system files
 .DS_Store
-
-# Xcode
-#
-build/
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata
-*.xccheckout
-*.moved-aside
-DerivedData
-*.hmap
-*.ipa
-*.xcuserstate
-project.xcworkspace
-.xcode.env.local
-
-# Bundle artifacts
-*.jsbundle
-
-# CocoaPods
-/Pods/
