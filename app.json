@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "todolistsimple",
+    "slug": "todolistsimple",
+    "scheme": "todolistsimple",
+    "version": "1.5.0",
+    "orientation": "portrait",
+    "icon": "./assets/appstore.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/appstore.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "UIDeviceFamily": [1, 2]
+      },
+      "bundleIdentifier": "com.tawfikayade.todolist",
+      "buildNumber": "20"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/appstore.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.tawfikayade.todolist"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a25ca61a-4b70-4bc7-ae62-cc8a06ee8134"
+      }
+    },
+    "plugins": [
+      "react-native-google-mobile-ads"
+    ]
+  },
+  "react-native-google-mobile-ads": {
+    "ios_app_id": "ca-app-pub-2359836796711365~4253080201"
+  }
+}

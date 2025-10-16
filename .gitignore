@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+
+# Expo / React Native
+.expo/
+.expo-shared/
+
+# iOS build & Pods
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+ios/*.xcworkspace
+ios/*.xcodeproj/project.xcworkspace/xcuserdata/
+ios/*.xcodeproj/xcuserdata/
+ios/*.xcodeproj/xcshareddata/
+
+# Android build
+android/build/
+android/.gradle/
+
+# Debug / logs
+yarn-debug.*
+yarn-error.*
+yarn-error.log*
+*.log
+
+# macOS system files
+.DS_Store

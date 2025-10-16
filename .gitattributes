@@ -1,0 +1,2 @@
+todolistsimple.app/**/*.dylib filter=lfs diff=lfs merge=lfs -text
+todolistsimple.app/Frameworks/**/*.framework filter=lfs diff=lfs merge=lfs -text
